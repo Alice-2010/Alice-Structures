@@ -21,6 +21,9 @@ namespace AliceStructures.Managers
         [FieldOffset(0x1C)] private readonly InputSlot player1;
         [FieldOffset(0x20)] private readonly InputSlot player2;
 
+        public readonly WIN32_CKPad* Gamepad1 => gamepad1;
+        public readonly WIN32_CKMouse* Mouse => mouse;
+        public readonly WIN32_CKKeyboard* Keyboard => keyboard;
         public readonly InputSlot Player1 => player1;
         public readonly InputSlot Player2 => player2;
 
