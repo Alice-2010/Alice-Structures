@@ -11,7 +11,7 @@ namespace AliceStructures.Managers
 		[FieldOffset(0x2C)] private readonly CTimeManager* timeManager;
 		[FieldOffset(0x30)] private readonly CKGraphic* graphics;
 		[FieldOffset(0x34)] private readonly CRenderer* renderer;
-
+		[FieldOffset(0x38)] private readonly CKInput* input;
 		[FieldOffset(0x3C)] private readonly CKSoundManager* soundManager;
 		[FieldOffset(0x40)] private readonly CKLoadingManager* loadingManager;
 		[FieldOffset(0x44)] private readonly CKGameUIManager* uiManager;
